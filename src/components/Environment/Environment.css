@@ -1,0 +1,11 @@
+.environment-section{
+    background:  hsl(220 12% 20%);
+    position: relative;
+    height: 50rem;
+}
+.bg-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40vw;
+}

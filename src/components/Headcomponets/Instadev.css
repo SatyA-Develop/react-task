@@ -1,0 +1,13 @@
+.instantdev-sec {
+  padding: 4rem 70px;
+}
+@media screen and (max-width:1024px){
+    .instantdev-sec {
+        padding: 4rem 36px;
+    }
+} 
+@media screen and (max-width:768px){
+    .instantdev-sec {
+        padding: 2rem 12px;
+    }
+} 
