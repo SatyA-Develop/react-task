@@ -1,0 +1,40 @@
+.interactive-section {
+  padding: 30px 30px 30px 0px;
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.interactive-left {
+  flex: 1;
+}
+.interactive-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 768px) {
+  .interactive-section {
+    padding: 10px;
+    gap: 25px;
+    flex-direction: column-reverse;
+  }
+  .interactive-head {
+    font-size: 25px;
+  }
+  .interactive-para {
+    font-size: 13px;
+    margin-bottom: 16px;
+    line-height: 20px;
+  }
+  .common-img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+  .interactive-right {
+    padding: 10px;
+  }
+}

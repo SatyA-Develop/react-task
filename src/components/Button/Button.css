@@ -1,0 +1,19 @@
+.btn{
+    padding: 5px 10px;
+    background: transparent;
+    color: #fff;
+    opacity: 0.7;
+    transition: 0.3s ease;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.btn:hover{
+    opacity: 1;
+}
+.avtive{
+    border-bottom: 1px solid #fff;
+}

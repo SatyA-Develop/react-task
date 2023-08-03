@@ -1,0 +1,27 @@
+.single-item{
+    background: #1c1f25;
+    padding: 20px 22px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+    border: none;
+}
+.single-item:hover{
+border: 1px solid #fff;
+transition: 0.3s ease-in;
+}
+.single-left img{
+    height: 30px;
+    width: 50px;
+}
+.single-right h2{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+.single-right h3{
+    font-size: 12px;
+    font-weight: 500;
+    color: #e5dcdc;
+}

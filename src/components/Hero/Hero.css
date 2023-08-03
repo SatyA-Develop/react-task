@@ -1,0 +1,58 @@
+.hero-container{
+    height: 100vh;
+    position: relative;
+}
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.writter-container{
+    min-height: 364px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    top: 10rem;
+    left: 30px;
+}
+.hero-para{
+    position: absolute;
+    top: 35rem;
+    left: 30px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 700px;
+    line-height: 30px;
+    opacity: 0.7;
+}
+.hero-text{
+    font-size: 100px;
+    color: #fff;
+    text-transform: capitalize;
+}
+@media screen and (max-width:1024px){
+.hero-text{
+    font-size: 60px;
+}
+.writter-container{
+    min-height: 150px;
+}
+.hero-para{
+    top: 26rem;
+}
+}
+@media screen and (max-width:1024px){
+.writter-container{
+    min-height: 120px;
+}
+.hero-text{
+    font-size: 30px;
+}
+.hero-para{
+    top: 20rem;
+    font-size: 16px;
+    line-height: 25px;
+}
+}
